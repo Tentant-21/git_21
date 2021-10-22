@@ -69,13 +69,12 @@ main {
 }
 .contenedor-texto .titulo {
   font-size: 36px;
-  font-weight: normal;
-  margin: 0;
+  font-weight: bolder;  
   color: #2a2a2a;
 }
 .contenedor-texto .frase {
   font-weight: bold;
-  color: #0ead69 ;
+  color: #0ead69;
   font-style: normal;
 }
 
@@ -84,13 +83,6 @@ main {
   font-weight: normal;
   margin-bottom: 40px;
 }
-
-.contenedor-texto .mascota {
-  font-weight: bold;
-  color: #c99806;
-  font-style: normal;
-}
-
 
 #hero-text a {
   margin: 0rem auto 0rem 0rem;
@@ -2864,14 +2856,14 @@ form.form_contact {
     #hero-container {
       display: flex;
       flex-direction: row;
-      margin: 5.5rem auto 4rem auto;
+      margin: 5.5rem auto 5rem auto;
     }
     
     #hero-text {
       display: flex;
       flex-direction: column;
       margin-top: 5rem;
-      margin-left: 0;
+      margin-left: 5rem;
       line-height: 1em;
       width:max-content;
       align-items: flex-start;
