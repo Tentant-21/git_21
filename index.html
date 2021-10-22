@@ -32,7 +32,6 @@
 </head>
 
 <body>
-
   <!--Bootstrap 5 Nav-->
   <nav class="navbar fixed-top navbar-expand-sm navbar-dark" id="navbar-home">
       <div class="container-fluid">
@@ -50,7 +49,7 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-menu">
-         <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html">
               <strong>
@@ -70,11 +69,11 @@
             </a>
             <ul class="dropdown-menu"
             aria-labelledby="navbarDropdown">
-             <li><a href="planes.html" class="dropdown-item" id="Dropdownitems">WEB BÁSICA | LANDING PAGE</a></li>
-             <li><a href="planes.html" class="dropdown-item" id="Dropdownitems">E-COMMERCE</a></li>
-             <li><a href="planes.html" class="dropdown-item" id="Dropdownitems">TIENDA VIRTUAL | CATÁLOGO PRODUCTOS</a></li>
-             <li><a href="planes.html" class="dropdown-item" id="Dropdownitems">PÁGINA WEB | INSTLACIÓN DE PASARELA DE PAGO</a></li>
-             <li><a href="planes.html#portafolio" class="dropdown-item" id="Dropdownitems">PORTAFOLIO</a></li>
+            <li><a href="planes.html" class="dropdown-item" id="Dropdownitems">WEB BÁSICA | LANDING PAGE</a></li>
+            <li><a href="planes.html" class="dropdown-item" id="Dropdownitems">E-COMMERCE</a></li>
+            <li><a href="planes.html" class="dropdown-item" id="Dropdownitems">TIENDA VIRTUAL | CATÁLOGO PRODUCTOS</a></li>
+            <li><a href="planes.html" class="dropdown-item" id="Dropdownitems">PÁGINA WEB | INSTLACIÓN DE PASARELA DE PAGO</a></li>
+            <li><a href="planes.html#portafolio" class="dropdown-item" id="Dropdownitems">PORTAFOLIO</a></li>
             </ul>
           </li>
           <!-- Soporte Técnico - Dropdown menu-->
@@ -130,8 +129,13 @@
       <div class="row no-gutters h-100 d-flex">
         <div id="hero-text" class="col-md-6 text-light align-self-center">
           <h1 class="display-1 font-weight-bold mb-4" id="h1">Cree en tu<br>Proyecto</h1>
-          <h3>Apoya a Tu Comunidad</h3>
-          <p class="lead mb-5">Si tú progresas, todos lo hacemos</p>
+          <!-- Typed Js -->
+          <main>
+            <div class="contenedor-texto">
+              <!-- Forma #1 -->
+              <h2 class="titulo">Apoya tu comunidad<br><span class="typed"></span></h2>
+            </div>
+          </main>          
           <a href="/index.html#t-cat-principales" class="btn btn-primary">Nuestros Servicios</a>
         </div>
         <div class="col-md-6 img-container align-self-center h-100">
@@ -142,6 +146,7 @@
       </div>
     </div>
   </section>
+
 
   <!-- OPTIONS CARDS -->
   <h2 id="t-cat-principales"> SEVICIOS DISPONIBLES </h2>
@@ -361,11 +366,13 @@
   <footer class="footer">    
     <p class="copyright">Copyright ©2021 | <strong id="copy"><a href="index.html" class="politicas">Tentant</a></strong> | Todos los derechos reservados.</p>
   </footer> 
-  <!-- SCRIPTS -->
+  <!----- SCRIPTS ----->
   <!-- Envío mail formulario PHP -->
   <script src="send.php"></script>
-  <!-- JS -->
-  <script src="js/main.js"></script>
+  <!-- Typed Js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="./js/typedjs.js"></script>
+  <script src="./js/main.js"></script>
   <!-- Bootstrap5 Script -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

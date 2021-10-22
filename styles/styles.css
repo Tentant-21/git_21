@@ -31,7 +31,7 @@ body {
 }
 
 #hero-background {
-  background: #fff;
+  background: unset;
   height: 30rem;
 }
 
@@ -43,7 +43,6 @@ body {
   margin-top: -7em;
   margin-left: 5rem;
   line-height: 1em;
-
 }
 
 #hero-text h1 {
@@ -61,6 +60,37 @@ body {
   font-size: 16px;
   color: #4a4a4a;
 }
+
+/*Typed Js*/
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contenedor-texto .titulo {
+  font-size: 36px;
+  font-weight: normal;
+  margin: 0;
+  color: #2a2a2a;
+}
+.contenedor-texto .frase {
+  font-weight: bold;
+  color: #0ead69 ;
+  font-style: normal;
+}
+
+.contenedor-texto .titulo {
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.contenedor-texto .mascota {
+  font-weight: bold;
+  color: #c99806;
+  font-style: normal;
+}
+
 
 #hero-text a {
   margin: 0rem auto 0rem 0rem;
