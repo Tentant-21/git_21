@@ -193,7 +193,7 @@ main {
 .icon{
   width: 60px;
   height: 60px;
-  background: #5baa00;
+  background:darkred;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -202,10 +202,10 @@ main {
   margin: -0.5em;
 }
 #card-c-1 .icon {
-  background: #ff5323;
+  background: darksalmon;
 }
 #card-c-3 .icon{
-  background: #FFC107;  
+  background:#0ead69;  
 }
 
 .card-c:hover .icon{
@@ -278,12 +278,18 @@ main {
 
 /* Botón Whatsapp */
 .btn-whatsapp {
+  bottom: 65px;
   display:block;
-  opacity: 70%;
+  opacity: 100%;
   position: fixed;
   right: 6px;
-  bottom: 65px;
   z-index: 3;
+
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 10px 0px 10px 10px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.337); 
+  -o-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.6);
+  border-radius: 50%;
 }
 
 
@@ -667,15 +673,6 @@ ul {
   gap: 45%;
 }
 
-.container-fluid #navbar-menu,
-#navbar-menu-planes, 
-#navbar-menu-serv,
-#navbar-menu-nos,
-#navbar-menu-contacto, 
-#navbar-menu-politics {
-  
-}
-
 /*Colores de Navbars*/
 .navbar {
   background-color: rgba(0, 0, 65, 0.939) ;
@@ -820,7 +817,7 @@ ul {
 
 .showcase_planes {
   align-items: center;
-  background: url("https://github.com/Tentant-21/Repositorio1/blob/master/img/showcase1-cactus2.webp?raw=true");
+  background: url("https://github.com/Tentant-21/git_21/blob/main/img/showcase1-cactus.webp?raw=true");
   background-position: bottom;
   background-repeat: repeat;
   background-size: contain;
@@ -1820,7 +1817,7 @@ ul {
   height: 100%;
   object-fit:cover;
   object-position: bottom;
-  opacity: 80%;
+  opacity: 85%;
 }
 
 .slider__btn {

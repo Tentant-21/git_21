@@ -1,9 +1,9 @@
 //Texto Hergo Background Transition Typedjs
 const typed = new Typed('.typed', {
 	strings: [
-		'<i class="frase">Con tus servicios </i>',
-		'<i class="frase">si tu progresas...</i>',
-		'<i class="frase">Todos lo hacemos</i>'
+		'<i class="frase">Con tus servicios</i>',
+		'<i class="frase">si tu progresas</i>',
+		'<i class="frase">todos lo hacen</i>'
 	],
 
 	//stringsElement: '#cadenas-texto', // ID del elemento que contiene cadenas de texto a mostrar.
