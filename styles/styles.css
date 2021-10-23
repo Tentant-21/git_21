@@ -374,7 +374,7 @@ a:hover, #a-formulario:hover {
 
 .contact_info {
   align-items: center;
-  background-image: url('/img/motherboard.jpg');
+  background-image: url('https://github.com/Tentant-21/git_21/blob/main/img/motherboard.jpg?raw=true');
   background-position:center;
   background-size: cover;
   display: flex;
