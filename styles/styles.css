@@ -9,7 +9,7 @@
 body {
   align-self: auto;
   background-color: #ffffff;
-  color: #000000;
+  color: #1a1a1a;
   font-family: "Oswald", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 14px;
   margin: 0;
@@ -610,44 +610,20 @@ form.form_contact input[type="submit"]:hover{
 
 
 
-/**/
+/*----- Dropdown menu -----*/
 
 #Dropdownitems {
   font-weight: 500;
   font-size: 14px;
-  color:#2e0f48;
+  color: #4a4a4a;
 }
 
 #Dropdownitems:hover {
-  color: #2bae24;
-}
-
-#Dropdownitems-bw {
-  font-weight: 500;
-  font-size: 14px;
-  color: #000000;
-}
-
-#Dropdownitems-bw:hover {
-  color:rgba(0, 0, 65, 0.939);
-  background-color:aliceblue;
+  color:#1a1a1a;
+  background-color: #f2f2f2;
 }
 
 
-#copy {
-  color: #2bae24;
-  text-decoration: none;
-}
-
-#copy:hover {
-  color: #f2f2f2;
-  text-decoration: none;
-}
-
-#copy-nos:hover, #copy-contacto:hover, #copy-politics:hover {
-  color:#000000;
-  text-decoration: none;
-}
 
 ul {
   list-style: none;
@@ -691,11 +667,26 @@ ul {
   padding: 0.5em;
 }
 
+/*Copyright*/
 .copyright {
   margin: 1em;
   text-align: center;
   font-size: 14px;
 }
+
+.copyLogo {
+  color: #F76E28;
+  background-color: transparent;
+  text-justify: auto;
+  font-weight: 500;
+}
+
+.copyLogo:hover {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
 
 
 /* SHOWCASE */
@@ -2430,28 +2421,6 @@ form.form_contact {
   padding: 1px 0px;
 }
 
-#navbar-menu-contacto, #navbar-menu-politics {
-  background-size: cover;
-  padding: 0;
-  margin: 0rem -1rem;
-  height: fit-content;
-}
-
-#navbar-menu-planes {
-  background-size: cover;
-  padding: 0;
-  margin: 0rem -1rem;
-  height: fit-content;
-}
-
-#navbar-menu-serv {
-  background-size: cover;
-  padding: 0;
-  margin: 0rem -1rem;
-  height: fit-content;
-}
-
-
 .menu-btn:hover {
   opacity: 0.5;
 }
@@ -2684,21 +2653,6 @@ form.form_contact {
     height: fit-content;
   }
 
-  #navbar-menu-planes {
-    background-size: cover;
-    padding: 0;
-    margin: -1.47rem -2.5rem;
-    height: fit-content;
-  }
-
-  #navbar-menu-serv {
-    background-size: cover;
-    padding: 0;
-    margin: -1.47rem -2.5rem;
-    height: fit-content;
-  }
-
-
 
 /*----- OPTIONS CARDS -----*/
 
@@ -2917,20 +2871,7 @@ form.form_contact {
   
 }
 
-/* ---------------- Politicas -------------- */
 
-.politicas {
-  color: unset;
-  background-color: transparent;
-  text-justify: auto;
-  font-weight: 600;
-}
-
-.politicas:hover {
-  color: #f2f2f2;
-  text-decoration: none;
-  font-weight: bolder;
-}
 
 
 
