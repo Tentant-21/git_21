@@ -2417,10 +2417,6 @@ form.form_contact {
 /**/
 
 
-#navbar-home {
-  background-color: #2e0f48ee;
-}
-
 #navbar-menu {
   background-color: #2e0f48ee;
   background-size: cover;
@@ -2434,8 +2430,7 @@ form.form_contact {
   padding: 1px 0px;
 }
 
-#navbar-menu-contacto, #navbar-menu-nos, #navbar-menu-politics {
-  background-color: #f2f2f2;
+#navbar-menu-contacto, #navbar-menu-politics {
   background-size: cover;
   padding: 0;
   margin: 0rem -1rem;
@@ -2443,7 +2438,6 @@ form.form_contact {
 }
 
 #navbar-menu-planes {
-  background-color: rgba(0, 0, 65, 0.939);
   background-size: cover;
   padding: 0;
   margin: 0rem -1rem;
@@ -2451,7 +2445,6 @@ form.form_contact {
 }
 
 #navbar-menu-serv {
-  background-color: #2e0f48ee;
   background-size: cover;
   padding: 0;
   margin: 0rem -1rem;
@@ -2683,14 +2676,8 @@ form.form_contact {
     font-size: 15px;
   }
 
-
-
-  #navbar-home {
-    background-color:rgba(0, 0, 65, 0.939);
-  }
-
   #navbar-menu {
-    background-color: rgba(0, 0, 65, 0.939);
+    background-color: #2a2a2ade;
     background-size: cover;
     padding: 0;
     margin: 0rem -2.5rem;
@@ -2698,7 +2685,6 @@ form.form_contact {
   }
 
   #navbar-menu-planes {
-    background-color: rgba(0, 0, 65, 0.939);
     background-size: cover;
     padding: 0;
     margin: -1.47rem -2.5rem;
@@ -2706,20 +2692,12 @@ form.form_contact {
   }
 
   #navbar-menu-serv {
-    background-color: #2e0f48ee;
     background-size: cover;
     padding: 0;
     margin: -1.47rem -2.5rem;
     height: fit-content;
   }
 
-  #navbar-menu-contacto, #navbar-menu-nos, #navbar-menu-politics {
-    background-color: #f2f2f2;
-    background-size: cover;
-    padding: 0;
-    margin: -1.47rem -2.5rem;
-    height: fit-content;
-  }
 
 
 /*----- OPTIONS CARDS -----*/
