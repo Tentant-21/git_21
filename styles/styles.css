@@ -673,54 +673,30 @@ ul {
   gap: 45%;
 }
 
-/*Colores de Navbars*/
+/*Color Navbar*/
 .navbar {
-  background-color: rgba(0, 0, 65, 0.939) ;
+  background-color: #2a2a2a;
   color: #ffffff;
   height: 70px;
   box-shadow: 0 0 5px 5px #24202041;
   padding-left: 2.5rem;
 }
 
-#navbar-home {
-  background-color: rgba(0, 0, 65, 0.939);
-}
+/*Color Footer*/
 
-#navbar-planes {
-  background-color: rgba(0, 0, 65, 0.939);
-}
-
-#navbar-serv {
-  background-color: #2e0f48ee;
-}
-
-#navbar-contacto, #navbar-nos, #navbar-politics {
-  background-color:#f2f2f2;
-  box-shadow: 0 0 5px 5px #24202041;
-}
-
-
-
-
-/*Colores de Footers*/
-.footer-contacto, .footer-nos, .footer-politics {
-  background-color: #f2f2f2;
-  color: #000000;
+.footer {
+  background-color: #2a2a2a;
+  color: #f2f2f2;
   font-size: 0.7rem;
-  padding: 1px 0px;
+  padding: 0.5em;
 }
-.footer-planes {
-  background-color: rgb(0, 0, 65);
-  color: #ffffff;
-  font-size: 0.7rem;
-  padding: 1px 0px;
+
+.copyright {
+  margin: 1em;
+  text-align: center;
+  font-size: 14px;
 }
-.footer-serv {
-  background-color: #2e0f48;
-  color: #ffffff;
-  font-size: 0.7rem;
-  padding: 1px 0px;
-}
+
 
 /* SHOWCASE */
 
@@ -2055,21 +2031,9 @@ ul {
   font-weight: 500;
 }
 
-.footer {
-  background-color: rgba(0, 0, 65, 0.939);
-  color: #d1d2d6;
-  font-size: 0.7rem;
-  padding: 0.5em;
-}
-.copyright {
-  margin: 1em;
-  text-align: center;
-  font-size: 14px;
-}
-
-/* Responsive */
 
 
+/*---------- Responsive ----------*/
 
 @media (max-width:1199px){
 
@@ -2466,8 +2430,6 @@ form.form_contact {
 }
 
 .footer {
-  background-color: #2e0f48ee;
-  color: #d1d2d6;
   font-size: 0.7rem;
   padding: 1px 0px;
 }
@@ -2825,8 +2787,6 @@ form.form_contact {
 
 
   .footer {
-    background-color: rgb(0, 0, 65);
-    color: #d1d2d6;
     font-size: 0.7rem;
     padding: 1px 0px;
   }
