@@ -1452,17 +1452,14 @@ ul {
 .showcase_serv {
   align-items: center;
   background-color:#000000;
-  /*background: url("https://github.com/Tentant-21/Repositorio1/blob/master/img/motherboard.jpg?raw=true") no-repeat center center/cover;*/
-  border-style: solid;
-  border-width: 3px;
-  border-color:#b3b3b3;
+  background: url("https://github.com/Tentant-21/git_21/blob/main/img/umberto-jXd2FSvcRr8-unsplash.jpg?raw=true") no-repeat center center/cover;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   height: 250px;
   justify-content:center;
   margin: 5.1em 0em 1em 0em;
-  opacity: 85%;
+  opacity: 95%;
   padding: 1em;
   text-align:center;
 }
