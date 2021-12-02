@@ -786,9 +786,9 @@ ul {
 
 .showcase_planes {
   align-items: center;
-  background: url("https://github.com/Tentant-21/git_21/blob/main/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg?raw=true");
+  background: url("");
   background-color:#5A5A5A;
-  background-position:left ;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   color: #f2f2f2;
