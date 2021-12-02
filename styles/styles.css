@@ -280,16 +280,21 @@ main {
 .btn-whatsapp {
   bottom: 65px;
   display:block;
-  opacity: 100%;
+  opacity:100%;
   position: fixed;
-  right: 6px;
+  right: 5px;
   z-index: 3;
 
   box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.6);
-  -moz-box-shadow: 10px 0px 10px 10px rgba(0,0,0,0.6);
-  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.337); 
+  -moz-box-shadow: 5px 0px 5px 5px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.275); 
   -o-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.6);
-  border-radius: 50%;
+  border-radius: 100%;
+}
+
+.btn-whatsapp:hover {
+  opacity: 95%;
+  -webkit-box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.337);
 }
 
 
@@ -298,7 +303,7 @@ main {
   display: flex;
   background-repeat:no-repeat;
   font-size: 1.7em;
-  color: darkred;
+  color:#B14141;
   cursor:pointer;
   position:fixed;
   opacity: 75%;
@@ -311,7 +316,7 @@ main {
   display: unset;
   background-repeat:no-repeat;
   font-size: 1.7em;
-  color: red;
+  color: #6a6a6a;
   cursor:pointer;
   position:fixed;
   opacity: 75%;
