@@ -1463,20 +1463,17 @@ ul {
 
 .showcase_contacto {
   align-items: center;
-  /*background: url("https://github.com/Tentant-21/Repositorio1/blob/master/img/showcase-contacto.jpg?raw=true") no-repeat top/cover;*/
+  background: url("https://github.com/Tentant-21/git_21/blob/main/img/sven-Q0ksjWR55Jc-unsplash.jpg?raw=true") no-repeat center center/cover;
   background-color: #f2f2f2;
-  border-style: solid;
-  border-color: #b3b3b3;
-  border-width: 3px;
   color: #000000;
   display: flex;
   flex-direction: column;
   height: 250px;
-  justify-content:center;
+  justify-content: center;
   margin: 5.1em 0em 1em 0em;
   padding: 1em;
   opacity: 100%;
-  text-align:center;
+  text-align: left;
 }
 
 .politicas-content {
