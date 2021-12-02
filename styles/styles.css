@@ -786,14 +786,11 @@ ul {
 
 .showcase_planes {
   align-items: center;
-  /*background: url("https://github.com/Tentant-21/git_21/blob/main/img/showcase1-cactus.webp?raw=true");*/
+  background: url("https://github.com/Tentant-21/git_21/blob/main/img/luca-bravo-XJXWbfSo2f0-unsplash.jpg?raw=true");
   background-color:#5A5A5A;
-  background-position: bottom;
-  background-repeat: repeat;
-  background-size: contain;
-  border-style: solid;
-  border-width: 3px;
-  border-color:#1a1a1a;
+  background-position:left ;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #f2f2f2;
   display: flex;
   flex-direction: column;
