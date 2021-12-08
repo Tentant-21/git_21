@@ -1,0 +1,247 @@
+:root {
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+  --gap: 18px;
+}
+
+/** ───────────────────────────────────────────────────── */
+/** NORMAL THEME */
+/** ───────────────────────────────────────────────────── */
+*,
+::after,
+::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(222, 26%, 31%);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: hsl(221, 14%, 31%);
+}
+
+/* .outer {
+  margin: 0 auto;
+  /* width: fit-content; */
+
+.outer {
+  min-width: max-content;
+  padding: 1.2rem
+}
+
+.container {
+  max-width: 346px;
+  display: grid;
+  margin: 54px auto;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 14px;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 6px 6px 32px rgba(12, 20, 97, 0.479);
+}
+
+section.nav {
+  grid-column: 1/ -1;
+  color: hsl(30, 25%, 89%);
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 16px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Bg slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(223, 31%, 20%);
+  transition: 0.3s;
+  border-radius: 34px;
+}
+
+/*Btn slider*/
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4.5px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(24px);
+}
+
+section.output {
+  height: 80px;
+  grid-column: 1/ -1;
+  background-color: hsl(222, 35%, 13%);
+  border-radius: 12px;
+  color: hsl(30, 25%, 89%);
+  display: grid;
+  grid-template-rows: 1.5fr 1fr;
+  align-items: center;
+}
+
+.output > .operands {
+  font-size: 20px;
+  padding-left: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  text-overflow: ellipsis;
+}
+
+.output > .result {
+  /* align-self: center; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  font-size: 18px;
+  padding-right: 12px;
+}
+
+section.btns {
+  grid-column: 1/ -1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: hsl(223, 31%, 20%);
+  gap: var(--gap);
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.btn {
+  background-color: hsl(30, 25%, 89%);
+  padding: 2px;
+  padding-top: 8px;
+  border-radius: 8px;
+  border-bottom: 3px solid hsl(28, 16%, 65%);
+}
+
+.btn-red {
+  background-color: hsl(6, 63%, 50%);
+  color: hsl(30, 25%, 89%);
+  border-bottom: 3px solid hsl(6, 70%, 34%);
+}
+
+.btn-blue {
+  background-color: hsl(225, 21%, 49%);
+  color: hsl(30, 25%, 89%);
+  padding-top: 12px;
+  font-size: 13.5px;
+  letter-spacing: 0.5px;
+  border-bottom: 3px solid hsl(224, 28%, 35%);
+}
+
+.btn:hover {
+  background-color: hsl(224, 92%, 85%);
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: hsl(225, 34%, 64%);
+}
+.btn-red:hover {
+  background-color: hsl(6, 82%, 53%);
+}
+
+.numerals {
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap);
+}
+
+.operations {
+  grid-column: 4/-1;
+  display: grid;
+  row-gap: var(--gap);
+}
+
+.reset-equal {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: var(--gap);
+}
+
+/** ───────────────────────────────────────────────────── */
+/** LIGHT THEME */
+/** ───────────────────────────────────────────────────── */
+
+.light-theme {
+  background-color: hsl(0, 0%, 90%);
+  color: hsl(60, 10%, 19%);
+}
+
+.light-theme section.btns {
+  background-color: hsl(0, 5%, 81%);
+}
+
+.light-theme .nav {
+  color: hsl(221, 14%, 31%);
+}
+
+.light-theme .btn {
+  background-color: hsl(45, 7%, 89%);
+  border-bottom: 3px solid hsl(28, 16%, 65%);
+}
+
+.light-theme .btn-red {
+  background-color: hsl(25, 98%, 40%);
+  border-bottom: 3px solid hsl(25, 99%, 27%);
+}
+
+.light-theme .btn-blue {
+  background-color: hsl(185, 42%, 37%);
+  border-bottom: 3px solid hsl(185, 58%, 25%);
+}
+
+.light-theme .btn:hover {
+  background-color: hsl(224, 92%, 85%);
+}
+.light-theme .btn-red:hover {
+  background-color: hsl(25, 83%, 48%);
+}
+
+.light-theme .btn-blue:hover {
+  background-color: hsl(185, 49%, 41%);
+}
+
+@media screen and (max-width: 680px) {
+}
