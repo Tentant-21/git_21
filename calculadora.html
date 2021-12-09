@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0"/>
-  <title>Tentant | Mensaje enviado</title>
+  <title>Tentant | Interact | Calculadora</title>
   <!-- Icono-->
   <link rel="icon" type="image/png" href="img/Copia_de_T-removebg-preview.png"/>
   <!--Bootstrap CSS-->
@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <!-- CUSTOM CSS -->
   <link rel="stylesheet" href="styles/styles.css">
+  <!-- Caculadora style-->
+  <link rel="stylesheet" href="/calculator/calc.css"/>
   <!-- JS -->
   <script src="/js/send.js"></script>
 </head>
@@ -38,7 +40,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
         <div class="collapse navbar-collapse" id="navbar-menu">
-         <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">
               Home
@@ -107,15 +109,55 @@
       </div>
   </nav>
 
-  <!-- Mensaje de envío -->
-  <section class="form_wrap" id="sended">
-      <section class="mensaje-exito">
-          <h1> TU MENSAJE HA SIDO ENVIADO EXITOSAMENTE</h1>
-          <p>Si aun tienes alguna duda, puedes conmunicarte nuevamente con nosotros nuevamente a través del Formulario de Contacto</p>
-          <a href="/index.html#formulario">Enviar un nuevo mensaje</a>
-      </section>
+  <!----- Calculadora ----->
+  <h1>Calculadora</h1>
+  <div class="container_calc">
+    <!-- NAV -->
+    <section class="nav">
+      <div>Calculator</div>
+      <label class="switch">
+        <!-- <span>THEME</span> -->
+        <input type="checkbox" />
+        <span class="slider round"></span>
+      </label>
+    </section>
 
-  </section>
+    <!-- OUTPUT -->
+    <section class="output">
+      <div class="operands"></div>
+      <div class="result"></div>
+    </section>
+
+    <!-- NUMERALS -->
+    <section class="btns_calc">
+      <div class="numerals">
+        <div class="btn_calc numeral" data-number="7">7</div>
+        <div class="btn_calc numeral" data-number="8">8</div>
+        <div class="btn_calc numeral" data-number="9">9</div>
+        <div class="btn_calc numeral" data-number="4">4</div>
+        <div class="btn_calc numeral" data-number="5">5</div>
+        <div class="btn_calc numeral" data-number="6">6</div>
+        <div class="btn_calc numeral" data-number="1">1</div>
+        <div class="btn_calc numeral" data-number="2">2</div>
+        <div class="btn_calc numeral" data-number="3">3</div>
+        <div class="btn_calc numeral" data-number="." id="dot">.</div>
+        <div class="btn_calc numeral" data-number="0">0</div>
+        <div class="btn_calc operation division" data-operator="/">/</div>
+      </div>
+
+      <div class="operations">
+        <div class="btn_calc btn-blue" id="del">DEL</div>
+        <div class="btn_calc operation plus" data-operator="+">+</div>
+        <div class="btn_calc operation minus" data-operator="-">-</div>
+        <div class="btn_calc operation times" data-operator="*">x</div>
+      </div>
+
+      <div class="reset-equal">
+        <div class="reset btn_calc btn-blue" id="reset">RESET</div>
+        <div class="equal btn_calc btn-red" id="equal">=</div>
+      </div>
+    </section>
+  </div>
     
     
     <!-- Margen de contenido-->
@@ -221,8 +263,8 @@
     <p class="copyright">Copyright ©2021 | <a href="index.html" class="copyLogo">Tentant</a> | Todos los derechos reservados.</p>
   </footer> 
   <!-- SCRIPTS -->
-  <!-- Envío mail formulario PHP -->
-  <script src="form_send.php"></script>
+  <!-- Calculadora script -->
+  <script src="/calculator/app_calc.js"></script>
   <!-- JS -->
   <script src="js/main.js"></script>
   <!-- Bootstrap5 Script -->

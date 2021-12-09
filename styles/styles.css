@@ -659,7 +659,7 @@ ul {
 
 /*Color Navbar*/
 .navbar {
-  background-color: #2a2a2a;
+  background-color: #1a1a1a;
   color: #ffffff;
   height: 70px;
   box-shadow: 0 0 5px 5px #24202041;
@@ -669,10 +669,11 @@ ul {
 /*Color Footer*/
 
 .footer {
-  background-color: #2a2a2a;
+  background-color: #1a1a1a;
   color: #f2f2f2;
   font-size: 0.7rem;
-  padding: 0.5em;
+  display:inline-block;
+  width: 100%;
 }
 
 /*Copyright*/
@@ -803,6 +804,19 @@ ul {
   justify-content:center;
   margin: 5.1em 0em 1em 0em;
   text-align:center;
+}
+
+.showcase_planes_bg {
+  align-items: center;
+  text-align:center;
+  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  background-color: #f2f2f24b;
+  
+  height: 250px;
 }
 
 .showcase_planes h1, 
@@ -1089,19 +1103,81 @@ ul {
 #premium a{
   background: #100e34;
 }
-/**/
 
 
-#ds-planes {
-  color: #2a2a2a;
+/*----- Interact area  -----*/
+.dw_ia {
+  color: #1a1a1a;
+  text-align: left;
+  margin: 5em 2em;
+  border-style: solid;
+  border-radius: 0.5em;
+  border-width: 0.1em;
+  padding: 2em 3em;
+}
+
+.dw_ia p {
+  color: #3a3a3a;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0em auto;
   text-align: left;
 }
 
-#ds-planes p {
-  color: #3a3a3a;
-  font-size: 14px;
-  margin: 0em 0.5em 0em 0.5em;
+.form {
+  color: #0ead69;
 }
+
+.form:hover {
+  color: #F76E28;
+}
+
+
+/*Catalog container*/
+.dw_showcase {
+  background-color: #22d085;
+  display: inline-block;
+  height: 25em;
+  width: 100%;
+  margin: 1em auto;
+  border-radius: 0.5em;
+  text-align: center;
+  padding: 2em auto;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /*Movil*/
+}
+
+/*Columnas (4) */
+.dw_showcase_1,
+.dw_showcase_2,
+.dw_showcase_3,
+.dw_showcase_4 {
+  background-color: #fff;
+  border-radius: 0.5em;
+  width: 80%;
+  height: 80%;
+  margin: 2em auto;
+  color: #0ead69;
+}
+
+.dw_showcase_1 h1,
+.dw_showcase_2 h1,
+.dw_showcase_3 h1,
+.dw_showcase_4 h1 {
+  font-size: 24px;
+}
+
+.dw_showcase_1:hover,
+.dw_showcase_2:hover,
+.dw_showcase_3:hover,
+.dw_showcase_4:hover {
+  color: #F76E28;
+}
+
+
+
+/**/
 
 #t-accordeon-planes { 
   color: #ffffff;
@@ -2439,10 +2515,10 @@ form.form_contact {
 }
     
 
-.navbar {
+/*.navbar {
   background-color: rgba(0, 0, 65, 0.939);
   height: 70px;   
-}
+} -------> Por Revisar */
 
   .news-cards {
     grid-template-columns: repeat(2, 1fr);
@@ -2875,6 +2951,41 @@ form.form_contact {
     width: 14rem;
   }
   /**/
+
+
+
+  /*-----  Interact area movil ------*/
+
+  /*Catalog container*/
+.dw_showcase {
+  background-color: #22d085;
+  display: inline-block;
+  height: 25em;
+  width: 100%;
+  margin: 1em auto;
+  border-radius: 0.5em;
+  text-align: center;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /*Movil*/
+}
+
+.dw_showcase_1,
+.dw_showcase_2,
+.dw_showcase_3,
+.dw_showcase_4 {
+  background-color: #fff;
+  border-radius: 0.5em;
+  width: 80%;
+  height: 80%;
+  margin: 1.4em auto;
+}
+
+
+
+
+
+
   }
   
 }

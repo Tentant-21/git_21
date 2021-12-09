@@ -7,7 +7,7 @@
 /** ───────────────────────────────────────────────────── */
 /** NORMAL THEME */
 /** ───────────────────────────────────────────────────── */
-*,
+
 ::after,
 ::before {
   box-sizing: inherit;
@@ -15,32 +15,31 @@
   padding: 0;
 }
 
-body {
-  background-color: hsl(222, 26%, 31%);
-  font-size: 24px;
-  font-weight: 700;
-  letter-spacing: -0.5px;
-  color: hsl(221, 14%, 31%);
-}
 
-/* .outer {
-  margin: 0 auto;
-  /* width: fit-content; */
 
 .outer {
   min-width: max-content;
-  padding: 1.2rem
+  padding: 1.2rem;
 }
 
-.container {
+
+/*Calculator color*/
+.container_calc {
   max-width: 346px;
+  background-color: #2a2a2a;
   display: grid;
-  margin: 54px auto;
+  margin: 3em auto;
   grid-template-columns: repeat(4, 1fr);
   row-gap: 14px;
   border-radius: 12px;
   padding: 12px;
   box-shadow: 6px 6px 32px rgba(12, 20, 97, 0.479);
+
+
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: hsl(221, 14%, 31%);
 }
 
 section.nav {
@@ -57,8 +56,8 @@ section.nav {
 .switch {
   position: relative;
   display: inline-block;
-  width: 44px;
-  height: 16px;
+  width: 1.5rem;
+  height: 0;
 }
 
 /* Hide default HTML checkbox */
@@ -70,15 +69,18 @@ section.nav {
 
 /* Bg slider */
 .slider {
-  position: absolute;
+  position: relative;
   cursor: pointer;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: hsl(223, 31%, 20%);
+  background-color:#2e5e85;
   transition: 0.3s;
-  border-radius: 34px;
+  border-radius: 0.5em;
+  height: 0.8em;
+  width: 2.3em;
+  margin: -1.2em;
 }
 
 /*Btn slider*/
@@ -109,7 +111,7 @@ input:checked + .slider:before {
 section.output {
   height: 80px;
   grid-column: 1/ -1;
-  background-color: hsl(222, 35%, 13%);
+  background-color: hsl(147, 34%, 36%);
   border-radius: 12px;
   color: hsl(30, 25%, 89%);
   display: grid;
@@ -134,7 +136,7 @@ section.output {
   padding-right: 12px;
 }
 
-section.btns {
+section.btns_calc {
   grid-column: 1/ -1;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -145,7 +147,7 @@ section.btns {
   border-radius: 12px;
 }
 
-.btn {
+.btn_calc {
   background-color: hsl(30, 25%, 89%);
   padding: 2px;
   padding-top: 8px;
@@ -168,7 +170,7 @@ section.btns {
   border-bottom: 3px solid hsl(224, 28%, 35%);
 }
 
-.btn:hover {
+.btn_calc:hover {
   background-color: hsl(224, 92%, 85%);
   cursor: pointer;
 }
@@ -205,11 +207,16 @@ section.btns {
 /** ───────────────────────────────────────────────────── */
 
 .light-theme {
-  background-color: hsl(0, 0%, 90%);
+  background-color: #fff;
   color: hsl(60, 10%, 19%);
 }
 
-.light-theme section.btns {
+/*Calculator color*/
+.light-theme .container_calc {
+  background-color: #f2f2f2;
+}
+
+.light-theme section.btns_calc {
   background-color: hsl(0, 5%, 81%);
 }
 
@@ -217,7 +224,7 @@ section.btns {
   color: hsl(221, 14%, 31%);
 }
 
-.light-theme .btn {
+.light-theme .btn_calc {
   background-color: hsl(45, 7%, 89%);
   border-bottom: 3px solid hsl(28, 16%, 65%);
 }
@@ -232,7 +239,7 @@ section.btns {
   border-bottom: 3px solid hsl(185, 58%, 25%);
 }
 
-.light-theme .btn:hover {
+.light-theme .btn_calc:hover {
   background-color: hsl(224, 92%, 85%);
 }
 .light-theme .btn-red:hover {
