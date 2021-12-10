@@ -741,6 +741,7 @@ ul {
   background-position: bottom;
   background-repeat: repeat;
   background-size:cover;
+  background-color: #f2f2f2;
   border-radius: 0.5em;
   box-shadow: 5px 5px 8px rgb(63, 61, 61);
   display: flex;
@@ -807,27 +808,30 @@ ul {
 }
 
 .showcase_planes_bg {
-  align-items: center;
-  background-color: #f2f2f24b;  
-  display: flex;
+  align-items: left;
+  background-color: #f2f2f22b;
+  display:flex;
   flex-direction: column;
   height: 250px;
   justify-content:center;
-  padding: 1em;
+  padding: 1em 15em;
   text-align:center;
   width: 100%;
-
 }
 
 .showcase_planes h1, 
 .showcase_planes p {
   margin: 0;
-  line-height: 1.5em;
+  line-height: 1.3em;
   text-align:left;
+  width: 100%;
 }
 
-.showcase_planes h1 {
-  margin-left: -1.7em;
+.showcase_planes_bg .btn {
+  margin-left: 0em;
+  margin-top: 0.5em;
+  max-width: 10em;
+
 }
 
 /*----- VIDEO BANNER -----*/
@@ -2559,10 +2563,37 @@ form.form_contact {
     background-repeat: no-repeat;
   }
 
-  .showcase_planes h1 {
-    margin: 0;
-    width: fit-content;
+  .showcase_planes_bg {
+    align-items: left;
+    background-color: #f2f2f22b;
+    display:flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content:center;
+    padding: 1em 3em;
+    text-align:center;
+    width: 100%;
   }
+  
+  .showcase_planes h1, 
+  .showcase_planes p {
+    margin: 0;
+    line-height: 1.3em;
+    text-align:left;
+    width: 100%;
+  }
+  
+  .showcase_planes_bg .btn {
+    margin-left: 0em;
+    margin-top: 0.5em;
+    max-width: 10em;
+  
+  }
+
+
+
+
+  /**/
   
   #collapse-t1-home, #collapse-t2-home, #collapse-t3-home, #collapse-t4-home, #collapse-t5-home {
     text-align: left;
