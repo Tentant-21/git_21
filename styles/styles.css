@@ -821,15 +821,13 @@ ul {
 
 .showcase_planes h1, 
 .showcase_planes p {
-  margin: 0;
-  line-height: 1.3em;
+  line-height: 1.2em;
   text-align:left;
-  width: 100%;
 }
 
 .showcase_planes_bg .btn {
   margin-left: 0em;
-  margin-top: 0.5em;
+  margin-top: 0em;
   max-width: 10em;
 
 }
@@ -2563,42 +2561,6 @@ form.form_contact {
   body {    
       width: 100%;
     }
-
-  .showcase_planes {
-    background-repeat: no-repeat;
-  }
-
-  .showcase_planes_bg {
-    align-items: left;
-    background-color: #f2f2f22b;
-    display:flex;
-    flex-direction: column;
-    height: 250px;
-    justify-content:center;
-    padding: 1em;
-    text-align:center;
-    width: 100%;
-  }
-  
-  .showcase_planes h1, 
-  .showcase_planes p {
-    margin: 0;
-    line-height: 1.3em;
-    text-align:left;
-    width: 100%;
-  }
-  
-  .showcase_planes_bg .btn {
-    margin-left: 0em;
-    margin-top: 0.5em;
-    max-width: 10em;
-  
-  }
-
-
-
-
-  /**/
   
   #collapse-t1-home, #collapse-t2-home, #collapse-t3-home, #collapse-t4-home, #collapse-t5-home {
     text-align: left;
@@ -2975,6 +2937,38 @@ form.form_contact {
       color: #000000;
       text-shadow: none;
     }
+
+    /*----- Showcase Planes - Movil -----*/
+    .showcase_planes {
+      background-repeat: no-repeat;
+    }
+  
+    .showcase_planes_bg {
+      align-items: left;
+      background-color: #f2f2f22b;
+      display:flex;
+      flex-direction: column;
+      height: 250px;
+      justify-content:center;
+      padding: 1em;
+      text-align:center;
+      width: 100%;
+    }
+    
+    .showcase_planes h1, 
+    .showcase_planes p {
+      
+      text-align:left;
+    }
+    
+    .showcase_planes_bg .btn {
+      margin-left: 0em;
+      margin-top: -0.8em;
+      max-width: 10em;
+    
+    }
+  
+    /**/
 
 
 
