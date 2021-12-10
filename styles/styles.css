@@ -2560,8 +2560,8 @@ form.form_contact {
   }
 
   .showcase_planes h1 {
-    margin-left: 0;
-    width: max-content;
+    margin: 0;
+    width: fit-content;
   }
   
   #collapse-t1-home, #collapse-t2-home, #collapse-t3-home, #collapse-t4-home, #collapse-t5-home {
