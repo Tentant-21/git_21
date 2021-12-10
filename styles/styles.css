@@ -2940,35 +2940,35 @@ form.form_contact {
 
     /*----- Showcase Planes - Movil -----*/
     .showcase_planes {
-      background-repeat: no-repeat;
-    }
+    background-repeat: no-repeat;
+  }
+
+  .showcase_planes_bg {
+    align-items: left;
+    background-color: #f2f2f22b;
+    display:flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content:center;
+    padding: 0.5em;
+    text-align:center;
+    width: 100%;
+  }
   
-    .showcase_planes_bg {
-      align-items: left;
-      background-color: #f2f2f22b;
-      display:flex;
-      flex-direction: column;
-      height: 250px;
-      justify-content:center;
-      padding: 1em;
-      text-align:center;
-      width: 100%;
-    }
+  .showcase_planes h1, 
+  .showcase_planes p {
     
-    .showcase_planes h1, 
-    .showcase_planes p {
-      
-      text-align:left;
-    }
-    
-    .showcase_planes_bg .btn {
-      margin-left: 0em;
-      margin-top: -0.8em;
-      max-width: 10em;
-    
-    }
+    text-align:left;
+  }
   
-    /**/
+  .showcase_planes_bg .btn {
+    margin-left: 0em;
+    margin-top: -0.8em;
+    max-width: 10em;
+  
+  }
+
+  /**/
 
 
 
