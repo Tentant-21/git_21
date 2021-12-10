@@ -367,7 +367,7 @@ a:hover, #a-formulario:hover {
 /*  Información de Contacto*/
 
 .contact_info::before {
-  background:darkred;
+  background-color:#e5e5e5;
   content: '';
   height: 100%;
   left: 0;
@@ -803,26 +803,31 @@ ul {
   height: 250px;
   justify-content:center;
   margin: 5.1em 0em 1em 0em;
-  text-align:center;
+  
 }
 
 .showcase_planes_bg {
   align-items: center;
-  text-align:center;
-  justify-content:center;
+  background-color: #f2f2f24b;  
   display: flex;
   flex-direction: column;
+  height: 250px;
+  justify-content:center;
+  padding: 1em;
+  text-align:center;
   width: 100%;
 
-  background-color: #f2f2f24b;
-  margin: 5.1em 0em 1em 0em;
-  
-  height: 250px;
 }
 
 .showcase_planes h1, 
 .showcase_planes p {
-  margin: 1em;
+  margin: 0;
+  line-height: 1.5em;
+  text-align:left;
+}
+
+.showcase_planes h1 {
+  margin-left: -1.7em;
 }
 
 /*----- VIDEO BANNER -----*/
@@ -2552,6 +2557,11 @@ form.form_contact {
 
   .showcase_planes {
     background-repeat: no-repeat;
+  }
+
+  .showcase_planes h1 {
+    margin-left: 0;
+    width: max-content;
   }
   
   #collapse-t1-home, #collapse-t2-home, #collapse-t3-home, #collapse-t4-home, #collapse-t5-home {
