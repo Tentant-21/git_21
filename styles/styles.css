@@ -912,7 +912,9 @@ ul {
   border-radius: 0.5em;
   border-width: 0.2em;
   box-shadow: 1px 1px 8px 3px #6a6a6a;
-  margin: 4em;
+  margin: 2em;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills h1 {
@@ -923,42 +925,42 @@ ul {
 
 .skills img { 
   max-width: 4em;
-  margin: 0;
-}
-
-.skills ul li { 
-  display: inline-flex;
-  
-  flex-wrap: wrap;
   margin: 1em;
 }
 
-.icons {
-  margin: auto 20%;
+.skills ul { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /*----- Payment Options  -----*/
 
 .payment {
-  display: inline-flex;
-  padding: 1em 1em 1em 25%;
+  display: flex;
+  padding: 1em;
   background-color: #f2f2f2;
-  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
 .payment h3 {
-  text-align: left;
+  text-align: center;
   color: #4a4a4a;
 }
 
 .payment ul li img { 
+  display: flex;
   max-width: 3em;
   max-height: 3em;
-  margin: 0em 2em 0em 2em;
+  margin: 1em;
+  align-items: center;
+  justify-content: center;
 }
 
 .payment ul li { 
-  display: inline;
+  display: inline-flex;
 }
 
 @media (max-width:750px){
@@ -3075,16 +3077,6 @@ form.form_contact {
   width: 8em;
   height: 10em;
   margin: 1.4em auto;
-}
-
-/*----- Skills -----*/
-.icons {
-  margin: auto 16%;
-}
-
-/*----- Payment Options  -----*/
-.payment {
-  padding: 4% 11%;
 }
 
 }
